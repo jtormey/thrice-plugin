@@ -52,7 +52,7 @@ Thrice keeps your recipes, weekly meal plan, shopping list, pantry and food log 
 | `record_cook` | Records that you cooked a recipe |
 | `save_tip` | Saves a cooking tip |
 
-Nothing deletes, changes sharing, or touches your account; that stays in the app. You can grant read-only access when you connect.
+Nothing deletes, changes sharing, or touches your account; that stays in the app.
 
 ## Requirements
 
