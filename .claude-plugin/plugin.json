@@ -9,7 +9,16 @@
     "url": "https://cookthrice.com"
   },
   "homepage": "https://cookthrice.com/connectors",
+  "privacyPolicyUrl": "https://cookthrice.com/privacy",
   "repository": "https://github.com/jtormey/thrice-plugin",
   "license": "MIT",
-  "keywords": ["recipes", "cooking", "meal planning", "shopping list", "pantry", "nutrition", "macros"]
+  "keywords": [
+    "recipes",
+    "cooking",
+    "meal planning",
+    "shopping list",
+    "pantry",
+    "nutrition",
+    "macros"
+  ]
 }
