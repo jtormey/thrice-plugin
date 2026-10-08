@@ -1,0 +1,15 @@
+{
+  "name": "thrice",
+  "displayName": "Thrice",
+  "version": "1.0.0",
+  "description": "Your Thrice kitchen in the chat: recipes, weekly meal plan, shopping list, pantry and food log. Plan the week, save recipes, build your list and log meals. Adds and updates, never deletes.",
+  "author": {
+    "name": "Thrice",
+    "email": "support@cookthrice.com",
+    "url": "https://cookthrice.com"
+  },
+  "homepage": "https://cookthrice.com/connectors",
+  "repository": "https://github.com/jtormey/thrice-plugin",
+  "license": "MIT",
+  "keywords": ["recipes", "cooking", "meal planning", "shopping list", "pantry", "nutrition", "macros"]
+}

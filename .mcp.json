@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "thrice": {
+      "type": "http",
+      "url": "https://cookthrice.com/mcp"
+    }
+  }
+}

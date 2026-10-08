@@ -1,0 +1,38 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "thrice",
+  "version": "1.0.0",
+  "description": "Your Thrice kitchen in the chat: recipes, weekly meal plan, shopping list, pantry and food log. Plan the week, save recipes, build your list and log meals. Adds and updates, never deletes.",
+  "author": {
+    "name": "Thrice",
+    "email": "support@cookthrice.com",
+    "url": "https://cookthrice.com"
+  },
+  "homepage": "https://cookthrice.com/connectors",
+  "repository": "https://github.com/jtormey/thrice-plugin",
+  "license": "MIT",
+  "keywords": ["recipes", "cooking", "meal planning", "shopping list", "pantry", "nutrition", "macros"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Thrice",
+        "shortDescription": "Plan, shop, cook and log from the chat",
+        "longDescription": "Thrice keeps your recipes, weekly meal plan, shopping list, pantry and food log in one place. Connect it to plan the week around your macro goal, save a recipe straight into your library, add a week of ingredients to your list, see what you can make with what's on hand, and log what you ate. It adds and updates the way the app does, and never deletes anything.",
+        "developerName": "Thrice",
+        "category": "Lifestyle",
+        "capabilities": ["Read", "Write"],
+        "websiteURL": "https://cookthrice.com",
+        "privacyPolicyURL": "https://cookthrice.com/privacy",
+        "termsOfServiceURL": "https://cookthrice.com/terms",
+        "defaultPrompt": [
+          "Use Thrice to plan my dinners this week around my macro goal.",
+          "Use Thrice to find what I can make tonight with what's in my pantry.",
+          "Use Thrice to add everything for this week's recipes to my shopping list."
+        ],
+        "brandColor": "#E60204",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/icon.png"
+      }
+    }
+  }
+}
